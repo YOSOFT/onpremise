@@ -279,7 +279,7 @@ ENV_CONFIG_MAPPING = {
     'SLACK_CLIENT_SECRET': 'slack.client-secret',
     'SLACK_VERIFICATION_TOKEN': 'slack.verification-token',
 
-    'SECRET_KEY': 'system.secret-key',
+    'SENTRY_SECRET_KEY': 'system.secret-key',
 }
 
 
