@@ -268,7 +268,7 @@ ENV_CONFIG_MAPPING = {
     'SENTRY_EMAIL_USE_TLS': ('mail.use-tls', bool),
     'SENTRY_EMAIL_HOST': 'mail.host',
     'SENTRY_SERVER_EMAIL': 'mail.from',
-    'SENTRY_ENABLE_EMAIL_REPLIES': 'mail.enable-replies',
+    'SENTRY_ENABLE_EMAIL_REPLIES': ('mail.enable-replies', bool),
     'SENTRY_SMTP_HOSTNAME': 'mail.reply-hostname',
 
     # If you're using mailgun for inbound mail, set your API key and configure a
